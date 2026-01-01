@@ -18,7 +18,8 @@ p{
     margin-right: 1em;
 }
 a{
-    color:aquamarine
+    color:aquamarine;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 h1{
     color: white;
@@ -213,4 +214,17 @@ button{
     flex-direction: row;
     align-items: start;
     justify-content: space-between;
+}
+a.recent_changes{
+    padding-right: 0.35em;
+    justify-content: end;
+    text-shadow: 2px 2px 5px #000000;
+    color: #000000;
+}
+.recent_changes{
+    display: flex;
+    align-items: center;
+}
+a.recent_changes > img{
+    padding-right: 0.35em;
 }
