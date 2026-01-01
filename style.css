@@ -218,7 +218,7 @@ button{
 a.recent_changes{
     padding-right: 0.35em;
     justify-content: end;
-    text-shadow: 2px 2px 5px #000000;
+    text-shadow: 2px 2px 5px hsla(0, 0%, 100%, 0.5);
     color: #000000;
 }
 .recent_changes{
