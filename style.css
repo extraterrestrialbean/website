@@ -48,6 +48,7 @@ button{
     border: 0.5rem solid rgb(68, 0, 255);
     border-top: 0.5rem solid rgb(35, 94, 255);
     border-left: 0.5rem solid rgb(35, 94, 255);
+    font-size: large;
 }
 button:hover{
     border: 0.5rem solid rgb(35, 94, 255);
