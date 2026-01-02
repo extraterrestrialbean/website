@@ -26,6 +26,11 @@ h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: .2em 0;
 }
+h2{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
 header{
     background-color:rgb(117, 0, 117);
     position: sticky;
