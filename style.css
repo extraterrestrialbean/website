@@ -224,6 +224,7 @@ a.recent_changes{
 .recent_changes{
     display: flex;
     align-items: center;
+    padding-top: 0.35em;
 }
 a.recent_changes > img{
     padding-right: 0.35em;
