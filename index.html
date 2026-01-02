@@ -86,8 +86,8 @@
         </div>
         <div>
             <p>this website is a professional portfolio and nothing more<br><br><br><br>dont look here</p>
-            <button>hidden stuff</button>
-            <div class="hidden stuff"></div>
+            <button id="hide_div_button">hidden stuff</button>
+            <div class="hidden_stuff" id="hidden_div" style="display: none;"><p>this is where i would put my fun projects... if i had any.</p></div>
         </div>
     </main>
     <footer>
@@ -117,4 +117,21 @@
         </center>
     </footer>
 </body>
+<script>
+    // Source - https://stackoverflow.com/a
+// Posted by Andrew Whitaker, modified by community. See post 'Timeline' for change history
+// Retrieved 2026-01-01, License - CC BY-SA 3.0
+
+var button = document.getElementById('hide_div_button');
+
+button.onclick = function() {
+    var div = document.getElementById('hidden_div');
+    if (div.style.display !== 'none') {
+        div.style.display = 'none';
+    }
+    else {
+        div.style.display = 'block';
+    }
+};
+</script>
 </html>
