@@ -234,3 +234,6 @@ a.recent_changes{
 a.recent_changes > img{
     padding-right: 0.35em;
 }
+.page_bottom{
+    font-size: small;
+}
