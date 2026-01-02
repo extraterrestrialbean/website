@@ -21,6 +21,15 @@ a{
     color:aquamarine;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+a:hover{
+    color: aqua;
+}
+a:visited{
+    color: rgb(244, 158, 255);
+}
+a:visited:hover{
+    color: rgb(236, 96, 255);
+}
 h1{
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -242,6 +251,15 @@ a.recent_changes{
     justify-content: end;
     text-shadow: 2px 2px 5px hsla(0, 0%, 100%, 0.5);
     color: #000000;
+}
+a.recent_changes:hover{
+    color: #242424;
+}
+a.recent_changes:visited{
+    color: #000000;
+}
+a.recent_changes:visited:hover{
+    color: #242424;
 }
 .recent_changes{
     display: flex;
