@@ -58,12 +58,17 @@ button{
     border-top: 0.5rem solid rgb(35, 94, 255);
     border-left: 0.5rem solid rgb(35, 94, 255);
     font-size: large;
+    cursor: pointer;
 }
 button:hover{
     border: 0.5rem solid rgb(35, 94, 255);
     border-top: 0.5rem solid rgb(68, 0, 255);
     border-left: 0.5rem solid rgb(68, 0, 255);
     background-color: rgb(71, 5, 66);
+}
+button:active{
+    background-color: rgb(70, 17, 100);
+    cursor: grabbing;
 }
 .header_left_col {
     padding: 0;
@@ -216,8 +221,22 @@ footer > hr{
     background-color: rgb(255, 223, 210);
 }
 .more_img{
-    border-radius: 25%;
-    height: 100px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    flex: 2 1 50%;
+    max-width: 50%;
+    position: absolute;
+    border-radius: 1em;
+    box-shadow: 0 0 1em rgb(58, 58, 58);
+}
+.more_img-ba{
+    left: 10%;
+    top: 10%;
+}
+.more_img-iwb{
+    bottom: 10%;
+    right: 10%;
 }
 .gal_img-bp{
     background-image: url(https://cdn.modrinth.com/data/4hu2S8FE/images/756ee3feb5e09974d8c768605a2faca7ed28b839.png);
@@ -275,6 +294,7 @@ a.recent_changes > img{
 .fun_project_link{
     margin-left: 5rem;
 }
+/* video player */
 .material-icons{
     user-select: none;
     -webkit-user-select: none;
