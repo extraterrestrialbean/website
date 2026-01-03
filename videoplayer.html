@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="extraterrestrial bean | Video Player" property="og:title" />
+    <meta content="watch videos without ads for free!" property="og:description" />
+    <meta content="https://extraterrestrialbean.github.io" property="og:url" />
+    <meta content="https://extraterrestrialbean.github.io/images/extraterrestrial_bean.jpg" property="og:image" />
+    <meta content="#750075" data-react-helmet="true" name="theme-color" />
+    <title>extraterrestrial bean | Video Player</title>
+    <link rel="icon" type="image/x-icon" href="/images/bean.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <div class="header_left_col">
+            <p style="font-size: small;">[extraterrestrial bean certificate of authenticity] there are no viruses on this page             <a href="https://github.com/extraterrestrialbean/extraterrestrialbean.github.io/" target="_blank" title="open source code on github">(proof)</a></p>
+            <a href="index.html" class="hero">
+                <img src="/images/extraterrestrial_bean.jpg" height="50" class="logo">
+                <h1 id="header_text">extraterrestrial bean</h1>
+            </a>
+            </div>
+            <div class="header_right_col">
+            <p>my stuff:</p>
+            <div id="links">
+                <a href="https://modrinth.com/user/extraterrestrialbean" target="_blank" title="see my datapacks on modrinth" class="header_link">
+                    <img src="/images/modrinth.png" height="25" class="header_link_img">
+                </a>
+                <a href="https://github.com/extraterrestrialbean" target="_blank" title="see my datapacks' source code!" class="header_link">
+                    <img src="/images/github.png" height="25" class="header_link_img">
+                </a>
+                <a href="https://discord.gg/jmVGMvtrcd" target="_blank" title="official discord server" class="header_link">
+                    <img src="/images/discord.jpg" height="25" class="header_link_img">
+                </a>
+                <a href="https://minecraft.wiki/User:Extraterrestrial_bean" target="_blank" title="my minecraft wiki account" class="header_link">
+                    <img src="/images/wiki.png" height="25" class="header_link_img">
+                </a>
+            </div></div>
+        </div>
+    </header>
+    <main><hr>
+        <div class="opening_blabber">
+            <p class="opening_text">welcome to the video player! i like the idea of moving
+                away from big companies like google owning every website we use, so i made this instead! keep
+                in mind this is just a fun project by me, so if you find any issues, you can report them on <a href="https://github.com/extraterrestrialbean/extraterrestrialbean.github.io/" target="_blank">
+                the github</a>.</p>
+        </div>
+        <section>
+        <div class="container">
+            <div id="video_player">
+                <video src="/videos/305657_small.mp4" id="main-video" width="100%"></video>
+                <div class="progressAreaTime"></div>
+                <div class="controls">
+                    <div class="progress-area">
+                        <div class="progress-bar">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="controls-list">
+                        <div class="controls-left">
+                            <span class="icon">
+                                <i class="material-icons fast-rewind">replay_10</i>
+                            </span>
+                            <span class="icon">
+                                <i class="material-icons play">play_arrow</i>
+                            </span>
+                            <span class="icon">
+                                <i class="material-icons fast-forward">forward_10</i>
+                            </span>
+                            <span class="icon">
+                                <i class="material-icons volume">volume_up</i>
+                                <input type="range" min="0" max="100" name="volume" class="volume_range">
+                            </span>
+                            <div class="timer">
+                                <span class="current">0:00</span> / <span class="duration">0:00</span>
+                            </div>
+                        </div>
+                        <div class="controls-right">
+                            <span class="icon">
+                                <i class="material-icons auto-play"></i>
+                            </span>
+                            <span class="icon">
+                                <i class="material-icons settingsBtn">settings</i>
+                            </span>
+                            <span class="icon">
+                                <i class="material-icons picture_in_picture">picture_in_picture_alt</i>
+                            </span>
+                            <span class="icon">
+                                <i class="material-icons fullscreen">fullscreen</i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div id="settings">
+                    <div class="playback">
+                        <span>Playback Speed</span>
+                        <ul>
+                            <li data-speed="0.25">0.25</li>
+                            <li data-speed="0.5">0.5</li>
+                            <li data-speed="0.75">0.75</li>
+                            <li data-speed="1">Normal</li>
+                            <li data-speed="1.25">1.25</li>
+                            <li data-speed="1.5">1.5</li>
+                            <li data-speed="1.75">1.75</li>
+                            <li data-speed="2">2</li>
+                            <li data-speed="3">3</li>
+                            <li data-speed="4">4</li>
+                            <li data-speed="6">6</li>
+                            <li data-speed="8">8</li>
+                            <li data-speed="10">10</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <div>
+            <p class="page_bottom">you reached the bottom of the page! <a href="#top">back to the top</a></p>
+        </div>
+        <center id="footing_links">
+            <p>
+                <a href="https://modrinth.com/user/extraterrestrialbean" target="_blank">Modrinth</a>
+            </p>
+            <p>
+                <a href="https://minecraft.wiki/User:Extraterrestrial_bean" target="_blank">Minecraft Wiki</a>
+            </p>
+            <p>
+                <a href="https://github.com/extraterrestrialbean" target="_blank">GitHub</a>
+            </p>
+            <p>
+                <a href="https://youtube.com/@extraterrestrialbean" target="_blank">YouTube</a>
+            </p>
+            <p>
+                <a href="https://discord.gg/jmVGMvtrcd" target="_blank">Discord</a>
+            </p>
+            <p>
+                <a href="https://twitch.tv/beanfromspaceship" target="_blank">Twitch</a>
+            </p>
+        </center>
+    </footer>
+</body>
+</html>
