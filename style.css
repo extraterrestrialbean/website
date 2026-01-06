@@ -239,10 +239,10 @@ footer > hr{
     right: 10%;
 }
 .gal_img-bp{
-    background-image: url(https://cdn.modrinth.com/data/4hu2S8FE/images/756ee3feb5e09974d8c768605a2faca7ed28b839.png);
+    background-image: url(/images/banner-bp.png);
 }
 .gal_img-be{
-    background-image: url(https://cdn.modrinth.com/data/wW2bJm0a/images/4ed3336ad5ceb7104f2cfcf52464496fd0ebf044.png);
+    background-image: url(/images/banner-be.png);
 }
 .gallery_header{
     margin-left: 3rem;
