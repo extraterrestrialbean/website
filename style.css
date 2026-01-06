@@ -268,7 +268,7 @@ button{
 a.recent_changes{
     padding-right: 0.35em;
     justify-content: end;
-    text-shadow: 2px 2px 5px hsla(0, 0%, 100%, 0.5);
+    text-shadow: 0 0 5px hsla(0, 0%, 100%, 1);
     color: #000000;
 }
 a.recent_changes:hover{
