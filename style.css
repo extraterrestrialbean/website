@@ -259,10 +259,10 @@ h3{
     right: 10%;
 }
 .gal_img-bp{
-    background-image: url(/images/banner-bp.png);
+    background-image: url(/assets/images/banner-bp.png);
 }
 .gal_img-be{
-    background-image: url(/images/banner-be.png);
+    background-image: url(/assets/images/banner-be.png);
 }
 .gallery_header{
     margin-left: 3rem;
